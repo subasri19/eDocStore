@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8e4ff"
+    tools:context=".addEmp">
+
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="20dp"
+        android:text="Enter employee ID"
+        android:textSize="20dp"
+        android:textColor="#043362"
+        app:fontFamily="@font/caveat_brush" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fontFamily="casual"
+        android:padding="20dp"
+        android:id="@+id/Eeid"
+        android:layout_toRightOf="@+id/empid"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="220dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Eeid"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="ADD"
+        android:id="@+id/add"
+        android:textColor="#FFFFFF"
+        android:background="#003d7a"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Eeid"
+        android:id="@+id/listView"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="EMPLOYEE LIST"
+        android:textColor="#FFFFFF"
+        android:background="#003d7a"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/add"
+        android:textStyle="bold" />
+
+</RelativeLayout>

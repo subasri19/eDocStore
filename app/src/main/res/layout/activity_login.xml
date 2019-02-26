@@ -49,7 +49,6 @@
         app:fontFamily="casual"
         android:textStyle="bold"
         android:cursorVisible="true"/>
-
     <EditText
         android:id="@+id/uPW"
         android:layout_width="match_parent"

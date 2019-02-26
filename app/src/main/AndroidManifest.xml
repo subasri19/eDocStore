@@ -16,12 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".singup" />
+        <activity android:name=".signup" />
         <activity
             android:name=".splash"
             android:label="@string/title_activity_splash"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".login"></activity>
+        <activity android:name=".login" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".addEmp" />
+        <activity android:name=".empList"></activity>
     </application>
 
 </manifest>

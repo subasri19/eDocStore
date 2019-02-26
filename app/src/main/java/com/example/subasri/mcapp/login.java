@@ -11,30 +11,19 @@ import android.widget.TextView;
 
 public class login extends AppCompatActivity {
     public TextView navigate;
-    public EditText userName, password;
-    public SQLiteDatabase db;
     public Button login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        TextView navigate = (TextView) findViewById(R.id.linkSU);
-        Button login = (Button) findViewById(R.id.li);
-        EditText userName = (EditText) findViewById(R.id.userID);
-        EditText password = (EditText) findViewById(R.id.uPW);
-
+        navigate = (TextView) findViewById(R.id.linkSU);
+        login = (Button) findViewById(R.id.li);
         navigate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(login.this, singup.class);
+                Intent intent = new Intent(login.this, signup.class);
                 startActivity(intent);
-            }
-        });
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
             }
         });
     }
