@@ -28,7 +28,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".addEmp" />
-        <activity android:name=".empList"></activity>
+        <activity android:name=".empList" />
+        <activity android:name=".shiftReq"></activity>
     </application>
 
 </manifest>
