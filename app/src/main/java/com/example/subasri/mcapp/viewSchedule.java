@@ -1,4 +1,4 @@
-package com.example.employee_scheduling_app;
+package com.example.subasri.mcapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

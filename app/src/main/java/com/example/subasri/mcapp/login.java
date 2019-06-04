@@ -1,4 +1,4 @@
-package com.example.employee_scheduling_app;
+package com.example.subasri.mcapp;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -58,8 +58,8 @@ public class login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String suPW=uPW.getText().toString();
-                String suserID=userID.getText().toString();
+                final String suPW=uPW.getText().toString();
+                final String suserID=userID.getText().toString();
 
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, HttpUrl,
                         new Response.Listener<String>() {

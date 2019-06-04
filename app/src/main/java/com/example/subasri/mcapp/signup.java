@@ -1,4 +1,4 @@
-package com.example.employee_scheduling_app;
+package com.example.subasri.mcapp;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -104,10 +104,10 @@ public class signup extends AppCompatActivity implements AdapterView.OnItemSelec
         protected String doInBackground(String... params) {
 
 
-            String name=params[0];
-            String desg=params[4];
-            String password=params[2];
-            String username=params[1];
+            final String name=params[0];
+            final String desg=params[4];
+            final String password=params[2];
+            final String username=params[1];
 
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, HttpUrl,
                         new Response.Listener<String>() {
